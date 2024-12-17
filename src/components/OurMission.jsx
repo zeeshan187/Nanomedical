@@ -21,7 +21,7 @@ const OurMission = () => {
         </div>
         <div className="relative ">
           <img
-            src="/images/img2.jpeg"
+            src="/images/img6.jpg"
             alt="About Us"
             className="w-full h-auto rounded-lg shadow-lg "
           />

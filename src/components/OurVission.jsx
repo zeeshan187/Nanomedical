@@ -7,7 +7,7 @@ const OurVission = () => {
         {/* Image Section */}
         <div className="relative order-2 lg:order-1">
           <img
-            src="/images/img2.jpeg"
+            src="/images/img5.jpg"
             alt="About Us"
             className="w-full h-auto rounded-lg shadow-lg "
           />

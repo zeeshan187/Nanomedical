@@ -11,7 +11,7 @@ const HeroSection = () => {
 
       {/* Text */}
       <h1 className="relative text-white text-4xl md:text-6xl xl:text-8xl font-bold text-center">
-        Welcome to Our Platform
+        Welcome to NanoMedical
       </h1>
     </div>
   );

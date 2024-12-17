@@ -3,19 +3,19 @@ import React from "react";
 const services = [
   {
     id: 1,
-    imgSrc: "/images/img2.jpeg", // Update with actual image path
+    imgSrc: "/images/img4.jpg", // Update with actual image path
     title: "Medical Equipment Supply",
     description:
-      "We supply state-of-the-art imaging systems, surgical tools, critical care solutions, laboratory equipment, hospital solutions, and other advanced machinery to meet all your medical equipment needs, and more.",
-    buttonText: "Learn More",
+      "We supply cutting-edge medical machinery to meet all your equipment needs, including MRI scanners, MER Systems, Binocular Magnifying Loops, Intraoperative Ultrasound Systems, Fiber Optic Bronchoscopes, Blood Warmers, Automated Axioscopes, Automated Subglottic Aspiration Systems, and more.",
+    buttonText: "Let's Talk",
   },
   {
     id: 2,
-    imgSrc: "/images/img2.jpeg", // Update with actual image path
+    imgSrc: "/images/img7.jpg", // Update with actual image path
     title: "Maintenance & Repairs",
     description:
-      "Our expert team offers swift maintenance and repair services for medical equipment to minimize downtime. We also provide training for in-house engineers to enhance operational independence.",
-    buttonText: "Learn More",
+      "Our expert team offers fast and reliable maintenance and repair services for medical equipment, reducing downtime and ensuring smooth, efficient operations. We also provide specialized training for in-house engineers to enhance their ability to manage equipment independently.",
+    buttonText: "Let's Talk",
   },
 ];
 
@@ -27,11 +27,7 @@ const ServicesCards = () => {
           Services We Offer
         </h2>
         <p className="text-gray-700 text-lg text-center mb-12">
-          At Nano Medical International, We specialize in delivering a wide range of healthcare solutions tailored to meet the demands of modern medical facilities. Our offerings include the supply of advanced medical equipment, such as MRI scanners, CT scanners, surgical tools, patient monitors, laboratory instruments, and hospital solutions like electric operating tables and ICU beds with advanced features. Additionally, we provide top-notch maintenance and repair services through our expert electro-medical team, ensuring that your equipment operates at peak efficiency. We also conduct training programs to empower in-house engineers with the skills to perform basic troubleshooting and repairs, reducing dependency and ensuring uninterrupted care delivery.
-
-
-
-
+        At Nano Medical International, we specialize in delivering a wide range of healthcare solutions tailored to the needs of modern medical facilities. Our offerings include imaging systems for radiology and diagnostics, surgical equipment for operating theaters, critical care solutions for ICUs, and laboratory instruments for pathology and research departments. We also provide hospital infrastructure solutions, including advanced electric operating tables, ICU beds, and patient monitoring systems. Through our expert electro-medical team, we offer reliable maintenance and repair services to ensure optimal equipment performance. Additionally, we conduct specialized training programs to equip in-house biomedical engineers with the skills to perform basic repairs and troubleshooting, ensuring seamless operations and minimizing downtime. A detailed client list can be provided upon request.
         </p>
         {/* Flexbox Container to Center Cards */}
         <div className="flex flex-wrap justify-center gap-8">
@@ -51,9 +47,11 @@ const ServicesCards = () => {
                   {service.title}
                 </h3>
                 <p className="text-gray-600 mb-6">{service.description}</p>
+                <a href="/#contact">
                 <button className="bg-[#163879] text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
                   {service.buttonText}
                 </button>
+                </a>
               </div>
             </div>
           ))}

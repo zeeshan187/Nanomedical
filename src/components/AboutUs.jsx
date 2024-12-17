@@ -7,7 +7,7 @@ const AboutUs = () => {
         {/* Image Section */}
         <div className="relative order-2 lg:order-1">
           <img
-            src="/images/img2.jpeg"
+            src="/logo.png"
             alt="About Us"
             className="w-full h-auto rounded-lg shadow-lg "
           />
