@@ -5,6 +5,7 @@ import OurMission from './components/OurMission'
 import OurVission from './components/OurVission'
 import ServicesCards from './components/ServicesCards'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <OurVission />
       <ServicesCards />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
